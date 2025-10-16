@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-10-16">
+<meta name="dcterms.date" content="2025-10-17">
 
 <title>About Me – LiaoBingJie’s Blog</title>
 <style>
@@ -146,7 +146,8 @@ div.csl-indent {
   <li><a href="#beauty" id="toc-beauty" class="nav-link" data-scroll-target="#beauty"><span class="header-section-number">2.2</span> Beauty</a></li>
   <li><a href="#statistics" id="toc-statistics" class="nav-link" data-scroll-target="#statistics"><span class="header-section-number">2.3</span> Statistics</a></li>
   <li><a href="#community" id="toc-community" class="nav-link" data-scroll-target="#community"><span class="header-section-number">2.4</span> Community</a></li>
-  <li><a href="#power" id="toc-power" class="nav-link" data-scroll-target="#power"><span class="header-section-number">2.5</span> Power</a></li>
+  <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility"><span class="header-section-number">2.5</span> Reproducibility</a></li>
+  <li><a href="#power" id="toc-power" class="nav-link" data-scroll-target="#power"><span class="header-section-number">2.6</span> Power</a></li>
   </ul></li>
   <li><a href="#structure" id="toc-structure" class="nav-link" data-scroll-target="#structure"><span class="header-section-number">3</span> Structure</a>
   <ul class="collapse">
@@ -178,7 +179,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 16, 2025</p>
+      <p class="date">October 17, 2025</p>
     </div>
   </div>
   
@@ -251,8 +252,30 @@ div.csl-indent {
 </ul>
 <p>这些工具包对于经管类的科研工作有很大的帮助，当然 <code>R</code> 的生态圈远不止于此，但是我们暂时不讨论太深入太复杂的内容。隔壁 <code>Python</code> 的工作流更偏向业界，高质量的免费教材很少，社区维护也集中在“高精尖”的包当中，而对于初级使用的包关注度很低。</p>
 </section>
-<section id="power" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="power"><span class="header-section-number">2.5</span> Power</h2>
+<section id="reproducibility" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="reproducibility"><span class="header-section-number">2.5</span> Reproducibility</h2>
+<p><code>R</code> 的工具包管理是非常流畅的，因为所有 <code>R</code> 的工具包都必须经过 <code>CRAN</code> 严格检测才可以发布，大大增加了各个包之间的稳定性和兼容性。本文所依赖的所有工具包都列在下方，原始安装文件是隐藏在项目根目录下的文件，我不想手动复制粘贴，只能以这样的方式提供给大家；如果同学有兴趣复现本博客内容，请务必先复制以下代码到你们本地环境并安装好所有包，否则会出现各种莫名其妙的错误。我的系统是 macOS 26 和 R 4.5，但 win 和 linux 都可以正常运行，我在虚拟机测试过。而且安装工具包非常简单，只需要一个 <code>p_load()</code> 就可以搞定很多工具包的协调问题，相比 <code>python</code> 的 <code>pip, conda, uv</code> 简单很多。</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># install pacman 
+if (!requireNamespace("pacman", quietly = TRUE)) {
+  install.packages("pacman")
+}
+
+
+# load packages
+pacman::p_load(
+  palmerpenguins, tidyverse, modelsummary, flextable, ggdag, dagitty,
+  ggsci, ivreg, marginaleffects, scales, pandoc, car, broom, nortest,
+  lmtest, patchwork, sandwich, GGally, fixest, ggfixest, fpp3, ggforce,
+  urca, tidymodels, readxl, writexl, tidyquant, PortfolioAnalytics, 
+  tsgarch, equatags, ROI.plugin.quadprog, ROI.plugin.glpk, here, renv
+)</code></pre>
+</div>
+</div>
+</section>
+<section id="power" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="power"><span class="header-section-number">2.6</span> Power</h2>
 <p><code>Python</code> 借助 <code>transformer, pytorch, CUDA</code> 生态，在超大规模机器学习、深度学习、神经网络等场景具有明显优势，这一点是 <code>R</code> 最大的缺点，我们必须承认对方的实力强大。但在经管研究的大多数应用中，数据规模与模型复杂度通常不至于成为瓶颈，<code>R</code> 在 1 GB 左右的数据集处理速度时跟 <code>Python</code> 几乎没有性能差别，只有当数据超过 10 GB 的体量，<code>Python</code> 基于 <code>CUDA</code> 的算力优势才会逐渐体现出来。对大多数学术工作而言，<code>R</code> 现有的性能已完全满足需求，并且它的语法更简洁、更人性化、更流畅，非常适合经管类的学术科研工作。至于 <code>stata</code>，虽然它依然活跃在计量经济学领域，但它在复现文档、生态扩展、工程融合、编程效率方面都存在较大落后，因此暂时不讨论它。</p>
 </section>
 </section>

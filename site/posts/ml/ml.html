@@ -179,68 +179,45 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>首先调取如下的工具包，暂时不做过多解释，每个都有其独特的功能，后续章节会逐步用到它们。</p>
+<p>测试测试测试</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Show Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install and load pacman</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"pacman"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) {</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"pacman"</span>)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># load all common packages</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    tidyverse, modelsummary, flextable, ggdag, dagitty, ggsci, ivreg, </span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    marginaleffects, scales, pandoc, car, broom, nortest, lmtest, </span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    patchwork, sandwich, GGally, fixest, ggfixest, fpp3, ggforce, urca, </span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    readxl, writexl, tidyquant, PortfolioAnalytics, tsgarch, equatags,</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    ROI.plugin.quadprog, ROI.plugin.glpk, here</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-</div>
-<div class="cell">
-<details class="code-fold">
-<summary>Show Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidymodels)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># write a simple linear regression model in tidymodels</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>cars <span class="ot">=</span> mtcars</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># set up recipe</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>cars_reci <span class="ot">=</span> <span class="fu">recipe</span>(mpg <span class="sc">~</span> wt <span class="sc">+</span> hp <span class="sc">+</span> qsec, <span class="at">data =</span> cars)</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># set up the model</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>cars_mod <span class="ot">=</span> <span class="fu">linear_reg</span>() <span class="sc">%&gt;%</span> <span class="fu">set_engine</span>(<span class="st">"lm"</span>) <span class="sc">%&gt;%</span> <span class="fu">set_mode</span>(<span class="st">"regression"</span>)</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="co"># set up the workflow</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>cars_work <span class="ot">=</span> <span class="fu">workflow</span>() <span class="sc">%&gt;%</span> <span class="fu">add_model</span>(cars_mod) <span class="sc">%&gt;%</span> <span class="fu">add_recipe</span>(cars_reci)</span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="co"># fit the model</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>cars_fit <span class="ot">=</span> cars_work <span class="sc">%&gt;%</span> </span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">fit_resamples</span>(</span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>        <span class="at">resamples =</span> <span class="fu">vfold_cv</span>(cars, <span class="dv">10</span>),</span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>        <span class="at">metrics =</span> <span class="fu">metric_set</span>(rmse, rsq),</span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>        <span class="at">control =</span> <span class="fu">control_resamples</span>(<span class="at">save_pred =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="co"># collect metrics</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="fu">collect_metrics</span>(cars_fit) <span class="sc">%&gt;%</span> <span class="fu">datasummary_df</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># write a simple linear regression model in tidymodels</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>cars <span class="ot">=</span> mtcars</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># set up recipe</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>cars_reci <span class="ot">=</span> <span class="fu">recipe</span>(mpg <span class="sc">~</span> wt <span class="sc">+</span> hp <span class="sc">+</span> qsec, <span class="at">data =</span> cars)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># set up the model</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>cars_mod <span class="ot">=</span> <span class="fu">linear_reg</span>() <span class="sc">%&gt;%</span> <span class="fu">set_engine</span>(<span class="st">"lm"</span>) <span class="sc">%&gt;%</span> <span class="fu">set_mode</span>(<span class="st">"regression"</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># set up the workflow</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>cars_work <span class="ot">=</span> <span class="fu">workflow</span>() <span class="sc">%&gt;%</span> <span class="fu">add_model</span>(cars_mod) <span class="sc">%&gt;%</span> <span class="fu">add_recipe</span>(cars_reci)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># fit the model</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>cars_fit <span class="ot">=</span> cars_work <span class="sc">%&gt;%</span> </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">fit_resamples</span>(</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>        <span class="at">resamples =</span> <span class="fu">vfold_cv</span>(cars, <span class="dv">10</span>),</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>        <span class="at">metrics =</span> <span class="fu">metric_set</span>(rmse, rsq),</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>        <span class="at">control =</span> <span class="fu">control_resamples</span>(<span class="at">save_pred =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co"># collect metrics</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">collect_metrics</span>(cars_fit) <span class="sc">%&gt;%</span> <span class="fu">datasummary_df</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <!-- preamble start -->
 
     <script>
 
-      function styleCell_9xgwpahcgl2j89ivvim8(i, j, css_id) {
-          var table = document.getElementById("tinytable_9xgwpahcgl2j89ivvim8");
+      function styleCell_ffik7dg3r5ut0fo6n94b(i, j, css_id) {
+          var table = document.getElementById("tinytable_ffik7dg3r5ut0fo6n94b");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -249,8 +226,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function spanCell_9xgwpahcgl2j89ivvim8(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_9xgwpahcgl2j89ivvim8");
+      function spanCell_ffik7dg3r5ut0fo6n94b(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_ffik7dg3r5ut0fo6n94b");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -281,15 +258,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '2', j: 0 }, { i: '2', j: 1 }, { i: '2', j: 4 }, { i: '2', j: 3 }, { i: '2', j: 2 }, { i: '2', j: 5 },  ], css_id: 'tinytable_css_er7v7g03bhuecal2opfn',}, 
-          { positions: [ { i: '1', j: 0 }, { i: '1', j: 3 }, { i: '1', j: 1 }, { i: '1', j: 4 }, { i: '1', j: 2 }, { i: '1', j: 5 },  ], css_id: 'tinytable_css_ws249p1908nlooregi3u',}, 
-          { positions: [ { i: '0', j: 0 }, { i: '0', j: 3 }, { i: '0', j: 2 }, { i: '0', j: 1 }, { i: '0', j: 4 }, { i: '0', j: 5 },  ], css_id: 'tinytable_css_4a0pwbyg3mfhwep0xfa7',}, 
+          { positions: [ { i: '2', j: 0 }, { i: '2', j: 1 }, { i: '2', j: 4 }, { i: '2', j: 3 }, { i: '2', j: 2 }, { i: '2', j: 5 },  ], css_id: 'tinytable_css_as93o2n5641c0fvkgh2l',}, 
+          { positions: [ { i: '1', j: 0 }, { i: '1', j: 3 }, { i: '1', j: 1 }, { i: '1', j: 4 }, { i: '1', j: 2 }, { i: '1', j: 5 },  ], css_id: 'tinytable_css_48k6sp6xcg1sf6jqn29n',}, 
+          { positions: [ { i: '0', j: 0 }, { i: '0', j: 3 }, { i: '0', j: 2 }, { i: '0', j: 1 }, { i: '0', j: 4 }, { i: '0', j: 5 },  ], css_id: 'tinytable_css_ehq2e02av795bozmyqon',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_9xgwpahcgl2j89ivvim8(cell.i, cell.j, group.css_id);
+                  styleCell_ffik7dg3r5ut0fo6n94b(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -297,12 +274,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_er7v7g03bhuecal2opfn, .table th.tinytable_css_er7v7g03bhuecal2opfn { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_ws249p1908nlooregi3u, .table th.tinytable_css_ws249p1908nlooregi3u { text-align: left; }
-      .table td.tinytable_css_4a0pwbyg3mfhwep0xfa7, .table th.tinytable_css_4a0pwbyg3mfhwep0xfa7 { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_as93o2n5641c0fvkgh2l, .table th.tinytable_css_as93o2n5641c0fvkgh2l { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_48k6sp6xcg1sf6jqn29n, .table th.tinytable_css_48k6sp6xcg1sf6jqn29n { text-align: left; }
+      .table td.tinytable_css_ehq2e02av795bozmyqon, .table th.tinytable_css_ehq2e02av795bozmyqon { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_9xgwpahcgl2j89ivvim8" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_ffik7dg3r5ut0fo6n94b" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -319,18 +296,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
                 <tr>
                   <td data-row="1" data-col="0">rmse</td>
                   <td data-row="1" data-col="1">standard</td>
-                  <td data-row="1" data-col="2">2.59</td>
+                  <td data-row="1" data-col="2">2.56</td>
                   <td data-row="1" data-col="3">10.00</td>
-                  <td data-row="1" data-col="4">0.36</td>
-                  <td data-row="1" data-col="5">Preprocessor1_Model1</td>
+                  <td data-row="1" data-col="4">0.37</td>
+                  <td data-row="1" data-col="5">pre0_mod0_post0</td>
                 </tr>
                 <tr>
                   <td data-row="2" data-col="0">rsq</td>
                   <td data-row="2" data-col="1">standard</td>
-                  <td data-row="2" data-col="2">0.89</td>
+                  <td data-row="2" data-col="2">0.85</td>
                   <td data-row="2" data-col="3">10.00</td>
-                  <td data-row="2" data-col="4">0.05</td>
-                  <td data-row="2" data-col="5">Preprocessor1_Model1</td>
+                  <td data-row="2" data-col="4">0.08</td>
+                  <td data-row="2" data-col="5">pre0_mod0_post0</td>
                 </tr>
         </tbody>
       </table>
