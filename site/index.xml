@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>LiaoBingJie&#39;s Blog</title>
+<link>https://liaobingjie.org/</link>
+<atom:link href="https://liaobingjie.org/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Thu, 16 Oct 2025 09:49:40 GMT</lastBuildDate>
+<item>
+  <title>About Me</title>
+  <link>https://liaobingjie.org/posts/about/about.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="abstract" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Abstract</h1>
+<section id="about-me" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="about-me"><span class="header-section-number">1.1</span> About Me</h2>
+<p>我是廖冰杰，1988年生，广西桂林人。教育背景是：广西警察学院（大专，公安学） —— 公安大学（本科，公安学） —— 人民大学（硕士，公共管理）；职业背景是：某市公务员 —— 某大型房企审计 —— 某大型互联网金融审计 —— 自媒体教育创业。经过这么些年的工作、学习、生活，我对自己的未来和工业规划有了更深入的理解；想利用自己学习和工作的经历做一些公开课，从《计量经济学》为核心内容开展，包括多元回归 LM、双重差分 DID、时间序列 ARIMAX 三个主要板块。每个板块以原理性、理解性、应用性的视角开展讨论，而直接跳过数学公式证明和算法编辑，直接采取“拿来主义”，暂时不考虑底层逻辑，先把案例跑起来让同学们产生抽象的感性认知。我们是乘坐飞机的乘客而不是驾驶飞机的飞行员，只要飞机把我们安全送到目的地即可，我们完全不需要考虑飞行员、飞机信号、地面塔台的复杂关系。搞清楚这个原则，接下来所有的学习都会变得具体而明确。</p>
+</section>
+<section id="why-this-course" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="why-this-course"><span class="header-section-number">1.2</span> Why This Course</h2>
+<p>在宏观层面，我国高等教育资源失衡已经非常严重，北京上海两个城市占据了绝对优势的高等教育，再加上高考的省级名额限制，对西部孩子们形成了一道隐形的长城。中西部地区许多同学因为客观原因无法享受到优秀的高等教育，他们也有自己丰富美好的人生理想，但是他们的理想却被现实和政策所阻隔，这种隔阂在经济学领域尤为严重。《计量经济学》被当做宗教神器一样供奉在暗黑神坛上，暗黑法师在夜幕中故作玄虚、电闪雷鸣、狂风骤起、整个场面十分玄幻。我的使命是将它从邪恶神坛上拽下来，一把火烧掉它“欲练此功必先自宫”的迷信披风、摧毁它封建迷信的宗教崇拜；我深知无法从根本上改变教育资源失衡的现状，但至少可以通过自己小小努力帮助到更多在黑暗中摸索的孩子们；若能将教育公平正义向前推进一小步，“虽千万人，吾往矣。”</p>
+</section>
+<section id="how-to-learn" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="how-to-learn"><span class="header-section-number">1.3</span> How to Learn</h2>
+<p>在微观层面，我国高等教育的经济类课程依然采用理论主导的上课方式，老师们花很多时间精力在证明各种理论，对此我持保留意见；教员很久以前就指示我们“以歼灭敌人有生力量为主要目标，不以保守和夺取地方为主要目标”<span class="citation" data-cites="Mao1946">(毛泽东 1946)</span>。因此我认为高等教育应该以“启发、探索、引导”为主，鼓励同学们主动发现事物背后的规律，这也是 James Stewart 教授所推崇的方法 <span class="citation" data-cites="Stewart2021">(Stewart 2021)</span>。我在每章分别关注一个独立完整的案例，由浅入深、提出问题、分析思路、寻找答案；这样的思路很像公安局调查刑事案件，让同学们以“经济侦查”的视角去调查案件，从最初的一团迷雾着手、逐步排除掉错误假设、逐渐逼近客观真相，锁定“嫌疑人”以及它所采取的“犯罪路径”；最终培养严密的“以事实为依据、以法律为准绳”的实证思维。</p>
+</section>
+<section id="sustainability" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="sustainability"><span class="header-section-number">1.4</span> Sustainability</h2>
+<p>在可持续化层面，我深知仅凭热情是远远不够的，但没有热情是注定失败的；因此成立了一家小企业：“德业恒新”，我希望不仅仅帮助同学们通过考试、发表论文、顺利毕业，这些都太短浅了；而是希望以更系统的方法帮助更多的同学们实现更远大的人生志向，让大家“恒守其德、日新其业”，成为更好的自己。本课程的视频和讲义都免费、开源、公开，欢迎个人随意使用、禁止商用；欢迎自媒体转发宣传，请注明出处；欢迎中小企业捐赠教育基金、接受个人小额捐款。所有捐赠通过公益基金管理，每季度公布财务状况，接受社会监督。若有更多盈余，则积极响应总书记号召的“到基层去、到西部去、到祖国最需要的地方去，做成一番事业，做好一番事业。” <span class="citation" data-cites="Xi2016">(习近平 2016)</span> 并持续加大偏远乡村的基础教育投入、设立更多的线下教学点、提供必要的教学设备和生活帮助、将免费先进的基础教育向西部纵深推进。这听起来就像痴人说梦、愚公移山、夸父追日，但谁又能否认“星星之火可以燎原”的历史 <span class="citation" data-cites="Mao1930">(毛泽东 1930)</span>，谁又敢说这个梦一定无法实现？“路虽远，行则将至；事虽难，做则必成。”<span class="citation" data-cites="Xi2013">(习近平 2013)</span></p>
+<ul>
+<li>博客官网：XXXXX</li>
+<li>B 站认证号：XXXXX</li>
+<li>淘宝天猫账号：XXXXX</li>
+<li>小红书认证号：XXXXX</li>
+<li>公益捐赠账号：XXXXX</li>
+</ul>
+</section>
+</section>
+<section id="tools" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Tools</h1>
+<p>由于本文重点在计量经济学的实际运用，而不是 <code>R</code> 本身，因此下面仅进行抽象对比而无法深入开展，我后面会单独出一期视频介绍 <code>R</code> 的基础使用；此处简要介绍 <code>R</code> 相比 <code>Python</code> 的明显优点和缺点。</p>
+<section id="uniformity" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="uniformity"><span class="header-section-number">2.1</span> Uniformity</h2>
+<p><code>R</code> 的 <code>tidyverse</code> 经过近十年的高速发展，已经非常丰富成熟，是当前数据清理维度当之无愧的“蓝波汪”；<code>R</code> 的语法类似初中英语，采用动词主导、管道符链接的形式，逻辑清晰，上下文非常不言而喻。比如 <code>df |&gt; select(names, sex, city) |&gt; filter(city == "shanghai") |&gt; rename(gender = sex)</code> 这一段代码非常清晰地执行了几个命令，首先读取某个数据集 <code>df</code> 然后选择其中三列 <code>names, sex, city</code> 在筛选其中生源地是 <code>上海</code> 的同学，最后把 <code>sex</code> 更名为 <code>gender</code>。当然这只是 <code>R</code> 的冰山一角，基于 <code>tidyverse</code> 的语法产生了很多特别方便好用简单粗暴的工具包，具体内容我们暂时不深入讨论。反观 <code>Python</code> 的初期学习成本较大，配置虚拟环境就劝退很多非计算机的同学，另外 <code>pandas</code> 虽然初期上手容易，但是在相当多的细节之处存在明显的随意，对初学者的接受度和整体流畅度欠缺考虑。</p>
+</section>
+<section id="beauty" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="beauty"><span class="header-section-number">2.2</span> Beauty</h2>
+<p><code>R</code> 的 <code>ggplot2</code> 绘图就像乐高积木或者油画一样，一层一层堆叠各种需要的元素，每一层都是彼此独立的内容，轻松实现出版级统计图表；比如我们先绘制空白底层、再增加散点元素、再进行着色、再标注X轴Y轴主标题、再指定主题风格、再调整轴各种其他细节…每一层的操作都是相互独立互不打扰，保证整个出图的流畅性和美观性。在 <code>Python</code> 当中的 <code>seaborn, matplotlib, plotly</code> 等确实也很好用，但是它们在连贯性、流畅性、美观性等维度还有较大欠缺；如果是绘制普通图表，它们的差异性还不会很大，但是涉及到复杂图表，<code>Python</code> 的语法结构会明显比 <code>ggplot2</code> 更复杂和难以维护。另外 <code>python</code> 最近也有了 <code>lets-plot</code> 工具包，完完全全是 <code>ggplot2</code> 的镜像复刻，但这里面最大的问题不在于他们自身，而是底层跟其他工具包的兼容性问题，这是很大的挑战。</p>
+</section>
+<section id="statistics" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="statistics"><span class="header-section-number">2.3</span> Statistics</h2>
+<p><code>R</code> 的统计模型已经非常丰富，略带夸张地说“只有我们想不到，没有它做不到”。从最基础的多元回归 <code>glm</code> 到稍微复杂的双重差分 <code>fixest</code> 再到时间序列的 <code>fpp3</code> 再到火热的机器学习 <code>mlr3</code>，并且每一个工具包都是实实在在可以投入实战和生产环境直接带来效益的产品。虽然 <code>Python</code> 也有对应的工具包，比如 <code>statsmodels, pyfixest, sktime</code> 等等，但它们都是在 <code>R</code> 的原装基础上衍生而来，乍看之下很完美，一跑起来容易发生一些奇奇怪怪的兼容性小问题，虽然经过一些周折，也不是不能用，但是在小范围项目里的体验感觉要远差于 <code>R</code> 的原装工具包。</p>
+</section>
+<section id="community" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="community"><span class="header-section-number">2.4</span> Community</h2>
+<p>Wickham 横空出世，完成 <a href="https://tidyverse.org"><code>tidyverse</code></a> 的同时顺便写了两本书 <a href="https://r4ds.hadley.nz/">R4DS</a> 和 <a href="https://adv-r.hadley.nz/">Advanced R</a>，字里行间透露着浓浓的柏拉图式理想主义，其中有一段话给我初读的时候带来了很大的感动：</p>
+<blockquote class="blockquote">
+<p>This book is my attempt to pass on what I’ve learned so that you can understand the intricacies of R as quickly and painlessly as possible. Reading it will help you avoid the mistakes I’ve made and dead ends I’ve gone down, and will teach you useful tools, techniques, and idioms that can help you to attack many types of problems.</p>
+</blockquote>
+<p>不管是有意还是无意，后面陆续加入了许多作者和他们创作的神包：</p>
+<ul>
+<li><a href="https://bookdown.org/"><code>RBookDown</code></a>: 基于 <code>rmd</code> 格式而形成的许多重要而免费的教材，包括了 <code>R</code> 语言使用的方方面面，是 <code>R</code> 社区最大的宝藏；<code>python</code> 整体氛围越来越商业化、培训化、订阅化，而距离它最初的开源免费的初心有了很大的变化，并且它的社区在学术交流层面做的很封闭。</li>
+<li><a href="https://rmarkdown.rstudio.com/docs/index.html"><code>RMarkDown</code></a>: 将 <code>md</code> 语法和 <code>R</code> 语言完美结合起来，实现了一个 <code>.rmd</code> 文档可以包含文字、数学公式、表格、仅展示的代码、可执行的代码、输出结果、图片、超链接、等等元素。</li>
+<li><a href="https://modelsummary.com/"><code>modelsummary</code></a>: 一个提取各种模型结果并进行美化输出的神包。</li>
+<li><a href="https://marginaleffects.com/"><code>marginaleffects</code></a>: 一个进行模型边际效益分析的神包，特别是面对非线性模型和异质性分析时，非常好用。</li>
+<li><a href="https://lrberge.github.io/fixest/"><code>fixest</code></a>: 一个进行高维固定效应回归的神包，特别适合双重差分 DID 分析，经管人居家旅行必备良品。</li>
+<li><a href="https://www.tidymodels.org/"><code>tidymodels</code></a>: 基于 <code>tidyverse</code> 语法的机器学习工具包集合，涵盖了数据预处理、模型训练、模型调优、模型评估等各个环节，很简单但是非常实用。</li>
+<li><a href="https://tidyverts.org/"><code>tidyverts</code></a>: 一个进行时间序列分析的神包，独创的 <code>tsibble</code> 数据结构特别适合时间序列数据的处理和分析，完美遗传了 <code>lubridate</code> 的时间处理能力并且进一步融入了 <code>tibble</code> 的数据处理能力，这个包是博士阶段用来处理非金融时间序列分析的万金油。</li>
+<li><a href="https://business-science.github.io/tidyquant/"><code>tidyquant</code></a>: 一个进行量化金融分析的神包，完美融合了 <code>tidyverse</code> 和 <code>quantmod</code> 的能力，特别适合初级量化金融实战，但不是很适合高精度、高颗粒度、偏理论层面的量化金融分析。</li>
+<li><a href="https://www.nopredict.com/rpackages"><code>tsmodels</code></a>: 一个进行金融时间序列分析的神包，包含了各种金融时间序列分析的工具和模型，非常适合高精度的量化金融实战，但是这个包的开发到目前还没有达到完全体的状态，期待作者能加速更新。</li>
+</ul>
+<p>这些工具包对于经管类的科研工作有很大的帮助，当然 <code>R</code> 的生态圈远不止于此，但是我们暂时不讨论太深入太复杂的内容。隔壁 <code>Python</code> 的工作流更偏向业界，高质量的免费教材很少，社区维护也集中在“高精尖”的包当中，而对于初级使用的包关注度很低。</p>
+</section>
+<section id="power" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="power"><span class="header-section-number">2.5</span> Power</h2>
+<p><code>Python</code> 借助 <code>transformer, pytorch, CUDA</code> 生态，在超大规模机器学习、深度学习、神经网络等场景具有明显优势，这一点是 <code>R</code> 最大的缺点，我们必须承认对方的实力强大。但在经管研究的大多数应用中，数据规模与模型复杂度通常不至于成为瓶颈，<code>R</code> 在 1 GB 左右的数据集处理速度时跟 <code>Python</code> 几乎没有性能差别，只有当数据超过 10 GB 的体量，<code>Python</code> 基于 <code>CUDA</code> 的算力优势才会逐渐体现出来。对大多数学术工作而言，<code>R</code> 现有的性能已完全满足需求，并且它的语法更简洁、更人性化、更流畅，非常适合经管类的学术科研工作。至于 <code>stata</code>，虽然它依然活跃在计量经济学领域，但它在复现文档、生态扩展、工程融合、编程效率方面都存在较大落后，因此暂时不讨论它。</p>
+</section>
+</section>
+<section id="structure" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Structure</h1>
+<p>本文定位中级实战，我们的目的不是证明某个数学公式或一篇完整的期刊论文，而是从抽象的角度理解一篇计量实证分析的主要框架；我虽然假设同学们具有基础的本科经管水平，但是基础较差同学也无需害怕，先把整个流程过一遍，对计量经济学有一个高维认知然后再看另外的基础视频。本文战略性跳过以下部分：基础数学背景（多元微积分极值、矩阵运算、假设检验等等），计量经济学理论（OLS, MLE, STL），<code>R</code> 的基础运用（<code>dplyr, ggplot, positron, quarto</code>），<code>R</code> 的机器学习（<code>tidymodels, mlr3</code>）。在保持流畅性和实用性的前提下，本文只讨论四个最基础的计量经济学算法：多元回归、双重差分、时间序列、量化金融；简要介绍如下。</p>
+<section id="linear-models" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="linear-models"><span class="header-section-number">3.1</span> Linear Models</h2>
+<ul>
+<li>如何用人类语言描述一个 LM 案例？</li>
+<li>如何在 <code>R</code> 中进行一个完整的 Linear Model 分析流程？</li>
+<li>什么是外生性 (Exogeneity) 和内生性 (Endogeneity)，以及如何检验？</li>
+<li>什么是异质性 (Heterogeneity) 和同质性 (Homogeneity)，以及如何检验？</li>
+<li>什么是异方差性 (Heteroscedasticity) 和同方差性 (Homoscedasticity)，以及如何检验？</li>
+<li>什么是残差检验 (Residual Analysis)，以及如何检验？</li>
+</ul>
+</section>
+<section id="diff-in-diff" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="diff-in-diff"><span class="header-section-number">3.2</span> Diff-in-Diff</h2>
+<ul>
+<li>如何用人类语言描述一个 DID 案例？</li>
+<li>如何在 <code>R</code> 中进行一个完整的 DID 分析流程？</li>
+<li>什么是事件检验 (Event Study)，以及如何验证？</li>
+<li>什么是安慰剂检验 (Placebo Tests)，以及如何验证？</li>
+<li>什么是交错DID (Staggered DID)，以及如何执行它的流程？</li>
+</ul>
+</section>
+<section id="arima" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="arima"><span class="header-section-number">3.3</span> ARIMA</h2>
+<ul>
+<li>如何用人类语言描述一个 ARIMA 案例？</li>
+<li>如何在 <code>R</code> 中进行一个完整的 ARIMA 分析流程？</li>
+<li>什么是平稳性 (Stationarity) 和非平稳性 (Non-Stationarity)，以及如何检验？</li>
+<li>什么是自相关性 (Autocorrelation) 和独立性 (Non-Autocorrelation)，以及如何检验？</li>
+<li>什么是单位根检验 (Unit Root Test) 和协整 (Cointegration)，以及如何检验？</li>
+</ul>
+</section>
+</section>
+<section id="final-thoughts" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Final Thoughts</h1>
+<p>这些术语可能听起来令人恐惧，但只要把纯理论部分抛除掉，其实它们的运用很简单，只要高年级本科同学认真学一段时间，都完全可以掌握；我们将在解决问题的过程中逐步培养实证思维，不敢保证每个同学都能完全理解透彻，但至少可以看到迷雾森林背后的算法架构和哲学原理。洋洋洒洒说了这么多，谢谢你们能看到这，以我最喜欢的三句话作为序言的结束。</p>
+<ul>
+<li>“走上人生的旅途吧。前途很远，也很暗。然而不要怕，不怕的人面前才有路。”<span class="citation" data-cites="Lu1919a">(鲁迅 1919a)</span></li>
+<li>“愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者流的话。能做事的做事，能发声的发声。有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。”<span class="citation" data-cites="Lu1919b">(鲁迅 1919b)</span></li>
+<li>“优胜者固然可敬，但那虽然落后而仍非跑至终点不止的竞技者，和见了这样竞技者而肃然不笑的看客，乃正是中国将来的脊梁。”<span class="citation" data-cites="Lu1925">(鲁迅 1925)</span></li>
+</ul>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-Stewart2021" class="csl-entry">
+Stewart, James. 2021. <em>Calculus: Early Transcendentals</em>. Ninth. Boston, MA: Cengage Learning.
+</div>
+<div id="ref-Xi2013" class="csl-entry">
+习近平. 2013. <span>“2013年新春贺词.”</span> <a href="https://jhsjk.people.cn/article/32597789">https://jhsjk.people.cn/article/32597789</a>.
+</div>
+<div id="ref-Xi2016" class="csl-entry">
+———. 2016. <span>“在全国高校思想政治工作会议上的讲话.”</span> <a href="https://jhsjk.people.cn/article/29990647">https://jhsjk.people.cn/article/29990647</a>.
+</div>
+<div id="ref-Mao1930" class="csl-entry">
+毛泽东. 1930. <span>“对时局的估量和红军行动问题.”</span> <a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19300105.html">https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19300105.html</a>.
+</div>
+<div id="ref-Mao1946" class="csl-entry">
+———. 1946. <span>“为中共中央军事委员会起草的对党内的指示.”</span> <a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19460916.html">https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19460916.html</a>.
+</div>
+<div id="ref-Lu1919a" class="csl-entry">
+鲁迅. 1919a. <span>“随感录六十三.”</span> <em>新青年</em>. <a href="https://www.marxists.org/chinese/reference-books/luxun/02/024.htm">https://www.marxists.org/chinese/reference-books/luxun/02/024.htm</a>.
+</div>
+<div id="ref-Lu1919b" class="csl-entry">
+———. 1919b. <span>“随感录四十一.”</span> <em>新青年</em>. <a href="https://www.marxists.org/chinese/reference-books/luxun/02/009.htm">https://www.marxists.org/chinese/reference-books/luxun/02/009.htm</a>.
+</div>
+<div id="ref-Lu1925" class="csl-entry">
+———. 1925. <span>“这个与那个.”</span> <em>国民新报副刊</em>. <a href="https://www.marxists.org/chinese/reference-books/luxun/08/027.htm">https://www.marxists.org/chinese/reference-books/luxun/08/027.htm</a>.
+</div>
+</div></section></div> ]]></description>
+  <guid>https://liaobingjie.org/posts/about/about.html</guid>
+  <pubDate>Thu, 16 Oct 2025 09:49:40 GMT</pubDate>
+</item>
+<item>
+  <title>Practical Finance with R</title>
+  <link>https://liaobingjie.org/posts/fina/fina.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>我是廖冰杰，欢迎来到我的博客。。。</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Show Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyquant)</span></code></pre></div></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo </code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyquant packages ─────────────────────── tidyquant 1.0.11 ──
+✔ PerformanceAnalytics 2.0.8      ✔ TTR                  0.24.4
+✔ quantmod             0.4.28     ✔ xts                  0.14.1
+── Conflicts ────────────────────────────────────────── tidyquant_conflicts() ──
+✖ zoo::as.Date()                 masks base::as.Date()
+✖ zoo::as.Date.numeric()         masks base::as.Date.numeric()
+✖ PerformanceAnalytics::legend() masks graphics::legend()
+✖ quantmod::summary()            masks base::summary()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<details class="code-fold">
+<summary>Show Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># plot a simple stock price</span></span>
+<span id="cb4-2">(</span>
+<span id="cb4-3">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tq_get</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"AAPL"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">from =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2020-01-01"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">to =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2025-01-01"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb4-4">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> date, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> adjusted)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-5">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_line</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-6">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"AAPL Stock Price"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Date"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Adjusted Price"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-7">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span>
+<span id="cb4-8">)</span></code></pre></div></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="fina_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://liaobingjie.org/posts/fina/fina_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Finance</category>
+  <guid>https://liaobingjie.org/posts/fina/fina.html</guid>
+  <pubDate>Thu, 16 Oct 2025 07:55:37 GMT</pubDate>
+</item>
+<item>
+  <title>Practical Econometrics with R</title>
+  <link>https://liaobingjie.org/posts/econ/econ.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>我是廖冰杰，欢迎来到我的博客。。。</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Show Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="cb1-2"></span>
+<span id="cb1-3"></span>
+<span id="cb1-4">(</span>
+<span id="cb1-5">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(mtcars, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> wt, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> mpg)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-6">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_point</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-7">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_smooth</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">method =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"loess"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"gray"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">se =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-8">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span>
+<span id="cb1-9">)</span></code></pre></div></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="econ_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://liaobingjie.org/posts/econ/econ_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Econometrics</category>
+  <guid>https://liaobingjie.org/posts/econ/econ.html</guid>
+  <pubDate>Thu, 16 Oct 2025 07:55:23 GMT</pubDate>
+</item>
+<item>
+  <title>Practical ML with R</title>
+  <link>https://liaobingjie.org/posts/ml/ml.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>我是廖冰杰，欢迎来到我的博客。。。</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Show Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyverse)</span></code></pre></div></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.1.0     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<details class="code-fold">
+<summary>Show Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidymodels)</span></code></pre></div></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching packages ────────────────────────────────────── tidymodels 1.3.0 ──
+✔ broom        1.0.9     ✔ rsample      1.3.1
+✔ dials        1.4.1     ✔ tune         1.3.0
+✔ infer        1.0.9     ✔ workflows    1.2.0
+✔ modeldata    1.5.0     ✔ workflowsets 1.1.1
+✔ parsnip      1.3.2     ✔ yardstick    1.3.2
+✔ recipes      1.3.1     
+── Conflicts ───────────────────────────────────────── tidymodels_conflicts() ──
+✖ scales::discard() masks purrr::discard()
+✖ dplyr::filter()   masks stats::filter()
+✖ recipes::fixed()  masks stringr::fixed()
+✖ dplyr::lag()      masks stats::lag()
+✖ yardstick::spec() masks readr::spec()
+✖ recipes::step()   masks stats::step()</code></pre>
+</div>
+<details class="code-fold">
+<summary>Show Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># write a simple linear regression model in tidymodels</span></span>
+<span id="cb5-2">cars <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> mtcars</span>
+<span id="cb5-3"></span>
+<span id="cb5-4"></span>
+<span id="cb5-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># set up recipe</span></span>
+<span id="cb5-6">cars_reci <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">recipe</span>(mpg <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> wt <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> hp <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> qsec, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> cars)</span>
+<span id="cb5-7"></span>
+<span id="cb5-8"></span>
+<span id="cb5-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># set up the model</span></span>
+<span id="cb5-10">cars_mod <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">linear_reg</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">set_engine</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"lm"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">set_mode</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"regression"</span>)</span>
+<span id="cb5-11"></span>
+<span id="cb5-12"></span>
+<span id="cb5-13"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># set up the workflow</span></span>
+<span id="cb5-14">cars_work <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">workflow</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">add_model</span>(cars_mod) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">add_recipe</span>(cars_reci)</span>
+<span id="cb5-15"></span>
+<span id="cb5-16"></span>
+<span id="cb5-17"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># fit the model</span></span>
+<span id="cb5-18">cars_fit <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> cars_work <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> </span>
+<span id="cb5-19">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fit_resamples</span>(</span>
+<span id="cb5-20">        <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">resamples =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">vfold_cv</span>(cars, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>),</span>
+<span id="cb5-21">        <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">metrics =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">metric_set</span>(rmse, rsq),</span>
+<span id="cb5-22">        <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">control =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">control_resamples</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">save_pred =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>)</span>
+<span id="cb5-23">)</span>
+<span id="cb5-24"></span>
+<span id="cb5-25"></span>
+<span id="cb5-26"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># collect metrics</span></span>
+<span id="cb5-27"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">collect_metrics</span>(cars_fit)</span></code></pre></div></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 6
+  .metric .estimator  mean     n std_err .config             
+  &lt;chr&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt;   &lt;dbl&gt; &lt;chr&gt;               
+1 rmse    standard   2.54     10  0.382  Preprocessor1_Model1
+2 rsq     standard   0.832    10  0.0946 Preprocessor1_Model1</code></pre>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Machine Learning</category>
+  <guid>https://liaobingjie.org/posts/ml/ml.html</guid>
+  <pubDate>Thu, 16 Oct 2025 07:55:01 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "LiaoBingJie's Blog",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\nDescription\n\n\n\n\n\n\n\n\n2025-10-16\n\n\nAbout Me\n\n\n \n\n\n\n\n\n\n\n\n\n2025-10-16\n\n\nPractical Econometrics with R\n\n\nEconometrics\n\n\n\n\n\n\n\n\n\n2025-10-16\n\n\nPractical Finance with R\n\n\nFinance\n\n\n\n\n\n\n\n\n\n2025-10-16\n\n\nPractical ML with R\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/about/about.html",
+    "href": "posts/about/about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "我是廖冰杰，1988年生，广西桂林人。教育背景是：广西警察学院（大专，公安学） —— 公安大学（本科，公安学） —— 人民大学（硕士，公共管理）；职业背景是：某市公务员 —— 某大型房企审计 —— 某大型互联网金融审计 —— 自媒体教育创业。经过这么些年的工作、学习、生活，我对自己的未来和工业规划有了更深入的理解；想利用自己学习和工作的经历做一些公开课，从《计量经济学》为核心内容开展，包括多元回归 LM、双重差分 DID、时间序列 ARIMAX 三个主要板块。每个板块以原理性、理解性、应用性的视角开展讨论，而直接跳过数学公式证明和算法编辑，直接采取“拿来主义”，暂时不考虑底层逻辑，先把案例跑起来让同学们产生抽象的感性认知。我们是乘坐飞机的乘客而不是驾驶飞机的飞行员，只要飞机把我们安全送到目的地即可，我们完全不需要考虑飞行员、飞机信号、地面塔台的复杂关系。搞清楚这个原则，接下来所有的学习都会变得具体而明确。\n\n\n\n在宏观层面，我国高等教育资源失衡已经非常严重，北京上海两个城市占据了绝对优势的高等教育，再加上高考的省级名额限制，对西部孩子们形成了一道隐形的长城。中西部地区许多同学因为客观原因无法享受到优秀的高等教育，他们也有自己丰富美好的人生理想，但是他们的理想却被现实和政策所阻隔，这种隔阂在经济学领域尤为严重。《计量经济学》被当做宗教神器一样供奉在暗黑神坛上，暗黑法师在夜幕中故作玄虚、电闪雷鸣、狂风骤起、整个场面十分玄幻。我的使命是将它从邪恶神坛上拽下来，一把火烧掉它“欲练此功必先自宫”的迷信披风、摧毁它封建迷信的宗教崇拜；我深知无法从根本上改变教育资源失衡的现状，但至少可以通过自己小小努力帮助到更多在黑暗中摸索的孩子们；若能将教育公平正义向前推进一小步，“虽千万人，吾往矣。”\n\n\n\n在微观层面，我国高等教育的经济类课程依然采用理论主导的上课方式，老师们花很多时间精力在证明各种理论，对此我持保留意见；教员很久以前就指示我们“以歼灭敌人有生力量为主要目标，不以保守和夺取地方为主要目标”(毛泽东 1946)。因此我认为高等教育应该以“启发、探索、引导”为主，鼓励同学们主动发现事物背后的规律，这也是 James Stewart 教授所推崇的方法 (Stewart 2021)。我在每章分别关注一个独立完整的案例，由浅入深、提出问题、分析思路、寻找答案；这样的思路很像公安局调查刑事案件，让同学们以“经济侦查”的视角去调查案件，从最初的一团迷雾着手、逐步排除掉错误假设、逐渐逼近客观真相，锁定“嫌疑人”以及它所采取的“犯罪路径”；最终培养严密的“以事实为依据、以法律为准绳”的实证思维。\n\n\n\n在可持续化层面，我深知仅凭热情是远远不够的，但没有热情是注定失败的；因此成立了一家小企业：“德业恒新”，我希望不仅仅帮助同学们通过考试、发表论文、顺利毕业，这些都太短浅了；而是希望以更系统的方法帮助更多的同学们实现更远大的人生志向，让大家“恒守其德、日新其业”，成为更好的自己。本课程的视频和讲义都免费、开源、公开，欢迎个人随意使用、禁止商用；欢迎自媒体转发宣传，请注明出处；欢迎中小企业捐赠教育基金、接受个人小额捐款。所有捐赠通过公益基金管理，每季度公布财务状况，接受社会监督。若有更多盈余，则积极响应总书记号召的“到基层去、到西部去、到祖国最需要的地方去，做成一番事业，做好一番事业。” (习近平 2016) 并持续加大偏远乡村的基础教育投入、设立更多的线下教学点、提供必要的教学设备和生活帮助、将免费先进的基础教育向西部纵深推进。这听起来就像痴人说梦、愚公移山、夸父追日，但谁又能否认“星星之火可以燎原”的历史 (毛泽东 1930)，谁又敢说这个梦一定无法实现？“路虽远，行则将至；事虽难，做则必成。”(习近平 2013)\n\n博客官网：XXXXX\nB 站认证号：XXXXX\n淘宝天猫账号：XXXXX\n小红书认证号：XXXXX\n公益捐赠账号：XXXXX"
+  },
+  {
+    "objectID": "posts/about/about.html#abstract",
+    "href": "posts/about/about.html#abstract",
+    "title": "About Me",
+    "section": "",
+    "text": "我是廖冰杰，1988年生，广西桂林人。教育背景是：广西警察学院（大专，公安学） —— 公安大学（本科，公安学） —— 人民大学（硕士，公共管理）；职业背景是：某市公务员 —— 某大型房企审计 —— 某大型互联网金融审计 —— 自媒体教育创业。经过这么些年的工作、学习、生活，我对自己的未来和工业规划有了更深入的理解；想利用自己学习和工作的经历做一些公开课，从《计量经济学》为核心内容开展，包括多元回归 LM、双重差分 DID、时间序列 ARIMAX 三个主要板块。每个板块以原理性、理解性、应用性的视角开展讨论，而直接跳过数学公式证明和算法编辑，直接采取“拿来主义”，暂时不考虑底层逻辑，先把案例跑起来让同学们产生抽象的感性认知。我们是乘坐飞机的乘客而不是驾驶飞机的飞行员，只要飞机把我们安全送到目的地即可，我们完全不需要考虑飞行员、飞机信号、地面塔台的复杂关系。搞清楚这个原则，接下来所有的学习都会变得具体而明确。\n在宏观层面，我国高等教育资源失衡已经非常严重，北京上海两个城市占据了绝对优势的高等教育，再加上高考的省级名额限制，对西部孩子们形成了一道隐形的长城。中西部地区许多同学因为客观原因无法享受到优秀的高等教育，他们也有自己丰富美好的人生理想，但是他们的理想却被现实和政策所阻隔，这种隔阂在经济学领域尤为严重。《计量经济学》被当做宗教神器一样供奉在暗黑神坛上，暗黑法师在夜幕中故作玄虚、电闪雷鸣、狂风骤起、整个场面十分玄幻。我的使命是将它从邪恶神坛上拽下来，一把火烧掉它“欲练此功必先自宫”的迷信披风、摧毁它封建迷信的宗教崇拜；我深知无法从根本上改变教育资源失衡的现状，但至少可以通过自己小小努力帮助到更多在黑暗中摸索的孩子们；若能将教育公平正义向前推进一小步，“虽千万人，吾往矣。”\n在微观层面，我国高等教育的经济类课程依然采用理论主导的上课方式，老师们花很多时间精力在证明各种理论，对此我持保留意见；教员很久以前就指示我们“以歼灭敌人有生力量为主要目标，不以保守和夺取地方为主要目标”(毛泽东 1946)。因此我认为高等教育应该以“启发、探索、引导”为主，鼓励同学们主动发现事物背后的规律，这也是 James Stewart 教授所推崇的方法 (Stewart 2021)。我在每章分别关注一个独立完整的案例，由浅入深、提出问题、分析思路、寻找答案；这样的思路很像公安局调查刑事案件，让同学们以“经济侦查”的视角去调查案件，从最初的一团迷雾着手、逐步排除掉错误假设、逐渐逼近客观真相，锁定“嫌疑人”以及它所采取的“犯罪路径”；最终培养严密的“以事实为依据、以法律为准绳”的实证思维。\n在可持续化层面，我深知仅凭热情是远远不够的，但没有热情是注定失败的；因此成立了一家小企业：“德业恒新”，我希望不仅仅帮助同学们通过考试、发表论文、顺利毕业，这些都太短浅了；而是希望以更系统的方法帮助更多的同学们实现更远大的人生志向，让大家“恒守其德、日新其业”，成为更好的自己。本课程的视频和讲义都免费、开源、公开，欢迎个人随意使用、禁止商用；欢迎自媒体转发宣传，请注明出处；欢迎中小企业捐赠教育基金、接受个人小额捐款。所有捐赠通过公益基金管理，每季度公布财务状况，接受社会监督。若有更多盈余，则积极响应总书记号召的“到基层去、到西部去、到祖国最需要的地方去，做成一番事业，做好一番事业。” (习近平 2016) 并持续加大偏远乡村的基础教育投入、设立更多的线下教学点、提供必要的教学设备和生活帮助、将免费先进的基础教育向西部纵深推进。这听起来就像痴人说梦、愚公移山、夸父追日，但谁又能否认“星星之火可以燎原”的历史 (毛泽东 1930)，谁又敢说这个梦一定无法实现？“路虽远，行则将至；事虽难，做则必成。”(习近平 2013)\n\n公司官网：XXXXX\nB 站认证号：XXXXX\n淘宝天猫账号：XXXXX\n小红书认证号：XXXXX\n公司银行账号：XXXXX"
+  },
+  {
+    "objectID": "posts/about/about.html#tools",
+    "href": "posts/about/about.html#tools",
+    "title": "About Me",
+    "section": "",
+    "text": "由于本文重点在计量经济学的实际运用，而不是 R 本身，因此下面仅进行抽象对比而无法深入开展，我后面会单独出一期视频介绍 R 的基础使用；此处简要介绍 R 相比 Python 的明显优点和缺点。\n第一个优点是结构清晰。R 的 tidyverse 经过近十年的高速发展，已经非常丰富成熟，是当前数据清理维度当之无愧的“蓝波汪”；R 的语法类似初中英语，采用动词主导、管道符链接的形式，逻辑清晰。Python 的初期学习成本较大，配置虚拟环境就劝退很多非计算机的同学，pandas 虽然初期上手容易，但是在一些细节之处存在很明显的“粗暴和随意”，对初学者的接受度和整体流畅度欠缺考虑。\n第二个优点是绘图连贯。R 的 ggplot2 绘图就像乐高积木或者油画一样，一层一层堆叠各种需要的元素，每一层都是彼此独立的内容，轻松实现出版级统计图表；Python 的 seaborn, matplotlib, plotly 等确实也很好用，但是它们三剑客在连贯性、流畅性、美观性等维度还有一些欠缺。如果是绘制普通图表，它们的差异性还不会很大，但是涉及到复杂图表，Python 的语法结构会明显比 ggplot2 更复杂和难以维护。\n第三个优点是模型丰富。R 的统计模型已经非常丰富，从最基础的多元回归 glm 到稍微复杂的双重差分 fixest 再到时间序列的 fpp3 再到火热的机器学习 mlr3。虽然 Python 也有对应的工具包，比如 statsmodels, pyfixest, sktime，但它们都是在 R 的原装基础上衍生而来，乍看之下很完美，一跑起来容易发生一些奇奇怪怪的兼容性小问题，虽然并不会导致严重错误，但是使用体验确实不太流畅。\n第四个优点是人文主义。R 的 tidyverse 的核心作者 Wickham 写了 R4DS 和 Advanced R，字里行间透露着强烈的柏拉图式理想主义，他凭一己之力让濒临灭绝的 R 起死回生。然后陆续加入了 RMarkDown, RBookDown, modelsummary, marginaleffects, tidymodels, fixest, tidyverts… 等等神包，R 的生态圈逐渐紧密团结起来。反观 Python 更加偏向于工业界，高质量的免费教材很少，社区维护也高度集中在“高精尖”的包当中，而对于初级使用的包关注度很低。\nR 最大的缺点是算力较弱。Python 借助 transformer, pytorch, CUDA 生态，在超大规模机器学习、深度学习、神经网络等场景具有明显优势，这一点 R 难以望其项背。但在经管研究的大多数应用中，数据规模与模型复杂度通常不至于成为瓶颈，1 GB 左右的数据集处理速度上，R 跟 Python 几乎没有性能差别；10 GB 以上的数据集，Python 基于 CUDA 的算力优势才会逐渐体现出来。对大多数学术工作，R 现有的性能已完全满足需求，并且它的语法更简洁、更人性化、更流畅，非常适合经管类的学术科研工作。至于 stata，虽然它依然活跃在计量经济学领域，但它在复现文档、生态扩展、工程融合、编程效率方面都存在这样那样的瑕疵，因此我们暂时不讨论它。"
+  },
+  {
+    "objectID": "posts/about/about.html#structure",
+    "href": "posts/about/about.html#structure",
+    "title": "About Me",
+    "section": "",
+    "text": "本文定位中级实战，我们的目的不是证明某个数学公式或一篇完整的期刊论文，而是从抽象的角度理解一篇计量实证分析的主要框架；我虽然假设同学们具有基础的本科经管水平，但是基础较差同学也无需害怕，先把整个流程过一遍，对计量经济学有一个高维认知然后再看另外的基础视频。本文战略性跳过以下部分：基础数学背景（多元微积分极值、矩阵运算、假设检验等等），计量经济学理论（OLS, MLE, STL），R 的基础运用（dplyr, ggplot, positron, quarto），R 的机器学习（tidymodels, mlr3）。在保持流畅性和实用性的前提下，本文只讨论四个最基础的计量经济学算法：多元回归、双重差分、时间序列、量化金融；简要介绍如下。\n\n多元回归 Linear Models\n\n如何用人类语言描述一个 LM 案例？\n如何在 R 中进行一个完整的 Linear Model 分析流程？\n什么是外生性 (Exogeneity) 和内生性 (Endogeneity)，以及如何检验？\n什么是异质性 (Heterogeneity) 和同质性 (Homogeneity)，以及如何检验？\n什么是异方差性 (Heteroscedasticity) 和同方差性 (Homoscedasticity)，以及如何检验？\n什么是残差检验 (Residual Analysis)，以及如何检验？\n\n双重差分 Diff-in-Diff\n\n如何用人类语言描述一个 DID 案例？\n如何在 R 中进行一个完整的 DID 分析流程？\n什么是事件检验 (Event Study)，以及如何验证？\n什么是安慰剂检验 (Placebo Tests)，以及如何验证？\n什么是交错DID (Staggered DID)，以及如何执行它的流程？\n\n时间序列 ARIMA\n\n如何用人类语言描述一个 ARIMA 案例？\n如何在 R 中进行一个完整的 ARIMA 分析流程？\n什么是平稳性 (Stationarity) 和非平稳性 (Non-Stationarity)，以及如何检验？\n什么是自相关性 (Autocorrelation) 和独立性 (Non-Autocorrelation)，以及如何检验？\n什么是单位根检验 (Unit Root Test) 和协整 (Cointegration)，以及如何检验？"
+  },
+  {
+    "objectID": "posts/about/about.html#finale",
+    "href": "posts/about/about.html#finale",
+    "title": "About Me",
+    "section": "",
+    "text": "这些术语可能听起来令人恐惧，但其实很简单，稍安勿躁，我们将在解决问题的过程中逐步培养实证思维；不敢保证每个同学都能完全理解透彻，但至少可以看到迷雾森林背后的算法架构和哲学原理。洋洋洒洒说了这么多，谢谢你们能看到这，以我最喜欢的三句话作为序言的结束。\n\n“走上人生的旅途吧。前途很远，也很暗。然而不要怕，不怕的人面前才有路。”(鲁迅 1919a)\n“愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者流的话。能做事的做事，能发声的发声。有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。”(鲁迅 1919b)\n“优胜者固然可敬，但那虽然落后而仍非跑至终点不止的竞技者，和见了这样竞技者而肃然不笑的看客，乃正是中国将来的脊梁。”(鲁迅 1925)"
+  },
+  {
+    "objectID": "posts/fina/fina.html",
+    "href": "posts/fina/fina.html",
+    "title": "Practical Finance with R",
+    "section": "",
+    "text": "我是廖冰杰，欢迎来到我的博客。。。\n\n\nShow Code\nlibrary(ggplot2)\nlibrary(tidyquant)\n\n\nRegistered S3 method overwritten by 'quantmod':\n  method            from\n  as.zoo.data.frame zoo \n\n\n── Attaching core tidyquant packages ─────────────────────── tidyquant 1.0.11 ──\n✔ PerformanceAnalytics 2.0.8      ✔ TTR                  0.24.4\n✔ quantmod             0.4.28     ✔ xts                  0.14.1\n── Conflicts ────────────────────────────────────────── tidyquant_conflicts() ──\n✖ zoo::as.Date()                 masks base::as.Date()\n✖ zoo::as.Date.numeric()         masks base::as.Date.numeric()\n✖ PerformanceAnalytics::legend() masks graphics::legend()\n✖ quantmod::summary()            masks base::summary()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nShow Code\n# plot a simple stock price\n(\n    tq_get(\"AAPL\", from = \"2020-01-01\", to = \"2025-01-01\") %&gt;%\n    ggplot(aes(x = date, y = adjusted)) +\n    geom_line() +\n    labs(title = \"AAPL Stock Price\", x = \"Date\", y = \"Adjusted Price\") +\n    theme_minimal()\n)"
+  },
+  {
+    "objectID": "posts/econ/econ.html",
+    "href": "posts/econ/econ.html",
+    "title": "Practical Econometrics with R",
+    "section": "",
+    "text": "我是廖冰杰，欢迎来到我的博客。。。\n\n\nShow Code\nlibrary(ggplot2)\n\n\n(\n    ggplot(mtcars, aes(x = wt, y = mpg)) +\n    geom_point() +\n    geom_smooth(method = \"loess\", color = \"gray\", se = FALSE) +\n    theme_minimal()\n)\n\n\n`geom_smooth()` using formula = 'y ~ x'"
+  },
+  {
+    "objectID": "posts/ml/ml.html",
+    "href": "posts/ml/ml.html",
+    "title": "Practical ML with R",
+    "section": "",
+    "text": "我是廖冰杰，欢迎来到我的博客。。。\n\n\nShow Code\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nShow Code\nlibrary(tidymodels)\n\n\n── Attaching packages ────────────────────────────────────── tidymodels 1.3.0 ──\n✔ broom        1.0.9     ✔ rsample      1.3.1\n✔ dials        1.4.1     ✔ tune         1.3.0\n✔ infer        1.0.9     ✔ workflows    1.2.0\n✔ modeldata    1.5.0     ✔ workflowsets 1.1.1\n✔ parsnip      1.3.2     ✔ yardstick    1.3.2\n✔ recipes      1.3.1     \n── Conflicts ───────────────────────────────────────── tidymodels_conflicts() ──\n✖ scales::discard() masks purrr::discard()\n✖ dplyr::filter()   masks stats::filter()\n✖ recipes::fixed()  masks stringr::fixed()\n✖ dplyr::lag()      masks stats::lag()\n✖ yardstick::spec() masks readr::spec()\n✖ recipes::step()   masks stats::step()\n\n\nShow Code\n# write a simple linear regression model in tidymodels\ncars = mtcars\n\n\n# set up recipe\ncars_reci = recipe(mpg ~ wt + hp + qsec, data = cars)\n\n\n# set up the model\ncars_mod = linear_reg() %&gt;% set_engine(\"lm\") %&gt;% set_mode(\"regression\")\n\n\n# set up the workflow\ncars_work = workflow() %&gt;% add_model(cars_mod) %&gt;% add_recipe(cars_reci)\n\n\n# fit the model\ncars_fit = cars_work %&gt;% \n    fit_resamples(\n        resamples = vfold_cv(cars, 10),\n        metrics = metric_set(rmse, rsq),\n        control = control_resamples(save_pred = TRUE)\n)\n\n\n# collect metrics\ncollect_metrics(cars_fit)\n\n\n# A tibble: 2 × 6\n  .metric .estimator  mean     n std_err .config             \n  &lt;chr&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt;   &lt;dbl&gt; &lt;chr&gt;               \n1 rmse    standard   2.54     10  0.382  Preprocessor1_Model1\n2 rsq     standard   0.832    10  0.0946 Preprocessor1_Model1"
+  },
+  {
+    "objectID": "posts/about/about.html#about-me",
+    "href": "posts/about/about.html#about-me",
+    "title": "About Me",
+    "section": "",
+    "text": "我是廖冰杰，1988年生，广西桂林人。教育背景是：广西警察学院（大专，公安学） —— 公安大学（本科，公安学） —— 人民大学（硕士，公共管理）；职业背景是：某市公务员 —— 某大型房企审计 —— 某大型互联网金融审计 —— 自媒体教育创业。经过这么些年的工作、学习、生活，我对自己的未来和工业规划有了更深入的理解；想利用自己学习和工作的经历做一些公开课，从《计量经济学》为核心内容开展，包括多元回归 LM、双重差分 DID、时间序列 ARIMAX 三个主要板块。每个板块以原理性、理解性、应用性的视角开展讨论，而直接跳过数学公式证明和算法编辑，直接采取“拿来主义”，暂时不考虑底层逻辑，先把案例跑起来让同学们产生抽象的感性认知。我们是乘坐飞机的乘客而不是驾驶飞机的飞行员，只要飞机把我们安全送到目的地即可，我们完全不需要考虑飞行员、飞机信号、地面塔台的复杂关系。搞清楚这个原则，接下来所有的学习都会变得具体而明确。"
+  },
+  {
+    "objectID": "posts/about/about.html#why-this-course",
+    "href": "posts/about/about.html#why-this-course",
+    "title": "About Me",
+    "section": "",
+    "text": "在宏观层面，我国高等教育资源失衡已经非常严重，北京上海两个城市占据了绝对优势的高等教育，再加上高考的省级名额限制，对西部孩子们形成了一道隐形的长城。中西部地区许多同学因为客观原因无法享受到优秀的高等教育，他们也有自己丰富美好的人生理想，但是他们的理想却被现实和政策所阻隔，这种隔阂在经济学领域尤为严重。《计量经济学》被当做宗教神器一样供奉在暗黑神坛上，暗黑法师在夜幕中故作玄虚、电闪雷鸣、狂风骤起、整个场面十分玄幻。我的使命是将它从邪恶神坛上拽下来，一把火烧掉它“欲练此功必先自宫”的迷信披风、摧毁它封建迷信的宗教崇拜；我深知无法从根本上改变教育资源失衡的现状，但至少可以通过自己小小努力帮助到更多在黑暗中摸索的孩子们；若能将教育公平正义向前推进一小步，“虽千万人，吾往矣。”"
+  },
+  {
+    "objectID": "posts/about/about.html#how-to-learn",
+    "href": "posts/about/about.html#how-to-learn",
+    "title": "About Me",
+    "section": "",
+    "text": "在微观层面，我国高等教育的经济类课程依然采用理论主导的上课方式，老师们花很多时间精力在证明各种理论，对此我持保留意见；教员很久以前就指示我们“以歼灭敌人有生力量为主要目标，不以保守和夺取地方为主要目标”(毛泽东 1946)。因此我认为高等教育应该以“启发、探索、引导”为主，鼓励同学们主动发现事物背后的规律，这也是 James Stewart 教授所推崇的方法 (Stewart 2021)。我在每章分别关注一个独立完整的案例，由浅入深、提出问题、分析思路、寻找答案；这样的思路很像公安局调查刑事案件，让同学们以“经济侦查”的视角去调查案件，从最初的一团迷雾着手、逐步排除掉错误假设、逐渐逼近客观真相，锁定“嫌疑人”以及它所采取的“犯罪路径”；最终培养严密的“以事实为依据、以法律为准绳”的实证思维。"
+  },
+  {
+    "objectID": "posts/about/about.html#sustainability",
+    "href": "posts/about/about.html#sustainability",
+    "title": "About Me",
+    "section": "",
+    "text": "在可持续化层面，我深知仅凭热情是远远不够的，但没有热情是注定失败的；因此成立了一家小企业：“德业恒新”，我希望不仅仅帮助同学们通过考试、发表论文、顺利毕业，这些都太短浅了；而是希望以更系统的方法帮助更多的同学们实现更远大的人生志向，让大家“恒守其德、日新其业”，成为更好的自己。本课程的视频和讲义都免费、开源、公开，欢迎个人随意使用、禁止商用；欢迎自媒体转发宣传，请注明出处；欢迎中小企业捐赠教育基金、接受个人小额捐款。所有捐赠通过公益基金管理，每季度公布财务状况，接受社会监督。若有更多盈余，则积极响应总书记号召的“到基层去、到西部去、到祖国最需要的地方去，做成一番事业，做好一番事业。” (习近平 2016) 并持续加大偏远乡村的基础教育投入、设立更多的线下教学点、提供必要的教学设备和生活帮助、将免费先进的基础教育向西部纵深推进。这听起来就像痴人说梦、愚公移山、夸父追日，但谁又能否认“星星之火可以燎原”的历史 (毛泽东 1930)，谁又敢说这个梦一定无法实现？“路虽远，行则将至；事虽难，做则必成。”(习近平 2013)\n\n博客官网：XXXXX\nB 站认证号：XXXXX\n淘宝天猫账号：XXXXX\n小红书认证号：XXXXX\n公益捐赠账号：XXXXX"
+  },
+  {
+    "objectID": "posts/about/about.html#结构清晰",
+    "href": "posts/about/about.html#结构清晰",
+    "title": "About Me",
+    "section": "2.1 结构清晰",
+    "text": "2.1 结构清晰\nR 的 tidyverse 经过近十年的高速发展，已经非常丰富成熟，是当前数据清理维度当之无愧的“蓝波汪”；R 的语法类似初中英语，采用动词主导、管道符链接的形式，逻辑清晰。Python 的初期学习成本较大，配置虚拟环境就劝退很多非计算机的同学，pandas 虽然初期上手容易，但是在一些细节之处存在很明显的“粗暴和随意”，对初学者的接受度和整体流畅度欠缺考虑。"
+  },
+  {
+    "objectID": "posts/about/about.html#绘图流畅",
+    "href": "posts/about/about.html#绘图流畅",
+    "title": "About Me",
+    "section": "2.2 绘图流畅",
+    "text": "2.2 绘图流畅\nR 的 ggplot2 绘图就像乐高积木或者油画一样，一层一层堆叠各种需要的元素，每一层都是彼此独立的内容，轻松实现出版级统计图表；Python 的 seaborn, matplotlib, plotly 等确实也很好用，但是它们三剑客在连贯性、流畅性、美观性等维度还有一些欠缺。如果是绘制普通图表，它们的差异性还不会很大，但是涉及到复杂图表，Python 的语法结构会明显比 ggplot2 更复杂和难以维护。"
+  },
+  {
+    "objectID": "posts/about/about.html#模型完整",
+    "href": "posts/about/about.html#模型完整",
+    "title": "About Me",
+    "section": "2.3 模型完整",
+    "text": "2.3 模型完整\nR 的统计模型已经非常丰富，从最基础的多元回归 glm 到稍微复杂的双重差分 fixest 再到时间序列的 fpp3 再到火热的机器学习 mlr3。虽然 Python 也有对应的工具包，比如 statsmodels, pyfixest, sktime，但它们都是在 R 的原装基础上衍生而来，乍看之下很完美，一跑起来容易发生一些奇奇怪怪的兼容性小问题，虽然并不会导致严重错误，但是使用体验确实不太流畅。"
+  },
+  {
+    "objectID": "posts/about/about.html#人文主义",
+    "href": "posts/about/about.html#人文主义",
+    "title": "About Me",
+    "section": "2.4 人文主义",
+    "text": "2.4 人文主义\nR 的 tidyverse 的核心作者 Wickham 写了 R4DS 和 Advanced R，字里行间透露着强烈的柏拉图式理想主义，他凭一己之力让濒临灭绝的 R 起死回生。然后陆续加入了 RMarkDown, RBookDown, modelsummary, marginaleffects, tidymodels, fixest, tidyverts… 等等神包，R 的生态圈逐渐紧密团结起来。反观 Python 更加偏向于工业界，高质量的免费教材很少，社区维护也高度集中在“高精尖”的包当中，而对于初级使用的包关注度很低。"
+  },
+  {
+    "objectID": "posts/about/about.html#客观缺点",
+    "href": "posts/about/about.html#客观缺点",
+    "title": "About Me",
+    "section": "2.5 客观缺点",
+    "text": "2.5 客观缺点\nPython 借助 transformer, pytorch, CUDA 生态，在超大规模机器学习、深度学习、神经网络等场景具有明显优势，这一点 R 难以望其项背，是它最大的缺点，必须承认对方的实力强大。但在经管研究的大多数应用中，数据规模与模型复杂度通常不至于成为瓶颈，R 在 1 GB 左右的数据集处理速度时跟 Python 几乎没有性能差别，只有当数据超过 10 GB 的体量，Python 基于 CUDA 的算力优势才会逐渐体现出来。对大多数学术工作而言，R 现有的性能已完全满足需求，并且它的语法更简洁、更人性化、更流畅，非常适合经管类的学术科研工作。至于 stata，虽然它依然活跃在计量经济学领域，但它在复现文档、生态扩展、工程融合、编程效率方面都存在较大落后，因此暂时不讨论它。"
+  },
+  {
+    "objectID": "posts/about/about.html#linear-models",
+    "href": "posts/about/about.html#linear-models",
+    "title": "About Me",
+    "section": "3.1 Linear Models",
+    "text": "3.1 Linear Models\n\n如何用人类语言描述一个 LM 案例？\n如何在 R 中进行一个完整的 Linear Model 分析流程？\n什么是外生性 (Exogeneity) 和内生性 (Endogeneity)，以及如何检验？\n什么是异质性 (Heterogeneity) 和同质性 (Homogeneity)，以及如何检验？\n什么是异方差性 (Heteroscedasticity) 和同方差性 (Homoscedasticity)，以及如何检验？\n什么是残差检验 (Residual Analysis)，以及如何检验？"
+  },
+  {
+    "objectID": "posts/about/about.html#diff-in-diff",
+    "href": "posts/about/about.html#diff-in-diff",
+    "title": "About Me",
+    "section": "3.2 Diff-in-Diff",
+    "text": "3.2 Diff-in-Diff\n\n如何用人类语言描述一个 DID 案例？\n如何在 R 中进行一个完整的 DID 分析流程？\n什么是事件检验 (Event Study)，以及如何验证？\n什么是安慰剂检验 (Placebo Tests)，以及如何验证？\n什么是交错DID (Staggered DID)，以及如何执行它的流程？"
+  },
+  {
+    "objectID": "posts/about/about.html#arima",
+    "href": "posts/about/about.html#arima",
+    "title": "About Me",
+    "section": "3.3 ARIMA",
+    "text": "3.3 ARIMA\n\n如何用人类语言描述一个 ARIMA 案例？\n如何在 R 中进行一个完整的 ARIMA 分析流程？\n什么是平稳性 (Stationarity) 和非平稳性 (Non-Stationarity)，以及如何检验？\n什么是自相关性 (Autocorrelation) 和独立性 (Non-Autocorrelation)，以及如何检验？\n什么是单位根检验 (Unit Root Test) 和协整 (Cointegration)，以及如何检验？"
+  },
+  {
+    "objectID": "posts/about/about.html#uniformity",
+    "href": "posts/about/about.html#uniformity",
+    "title": "About Me",
+    "section": "2.1 Uniformity",
+    "text": "2.1 Uniformity\nR 的 tidyverse 经过近十年的高速发展，已经非常丰富成熟，是当前数据清理维度当之无愧的“蓝波汪”；R 的语法类似初中英语，采用动词主导、管道符链接的形式，逻辑清晰，上下文非常不言而喻。比如 df |&gt; select(names, sex, city) |&gt; filter(city == \"shanghai\") |&gt; rename(gender = sex) 这一段代码非常清晰地执行了几个命令，首先读取某个数据集 df 然后选择其中三列 names, sex, city 在筛选其中生源地是 上海 的同学，最后把 sex 更名为 gender。当然这只是 R 的冰山一角，基于 tidyverse 的语法产生了很多特别方便好用简单粗暴的工具包，具体内容我们暂时不深入讨论。反观 Python 的初期学习成本较大，配置虚拟环境就劝退很多非计算机的同学，另外 pandas 虽然初期上手容易，但是在相当多的细节之处存在明显的随意，对初学者的接受度和整体流畅度欠缺考虑。"
+  },
+  {
+    "objectID": "posts/about/about.html#beauty",
+    "href": "posts/about/about.html#beauty",
+    "title": "About Me",
+    "section": "2.2 Beauty",
+    "text": "2.2 Beauty\nR 的 ggplot2 绘图就像乐高积木或者油画一样，一层一层堆叠各种需要的元素，每一层都是彼此独立的内容，轻松实现出版级统计图表；比如我们先绘制空白底层、再增加散点元素、再进行着色、再标注X轴Y轴主标题、再指定主题风格、再调整轴各种其他细节…每一层的操作都是相互独立互不打扰，保证整个出图的流畅性和美观性。在 Python 当中的 seaborn, matplotlib, plotly 等确实也很好用，但是它们在连贯性、流畅性、美观性等维度还有较大欠缺；如果是绘制普通图表，它们的差异性还不会很大，但是涉及到复杂图表，Python 的语法结构会明显比 ggplot2 更复杂和难以维护。另外 python 最近也有了 lets-plot 工具包，完完全全是 ggplot2 的镜像复刻，但这里面最大的问题不在于他们自身，而是底层跟其他工具包的兼容性问题，这是很大的挑战。"
+  },
+  {
+    "objectID": "posts/about/about.html#statistics",
+    "href": "posts/about/about.html#statistics",
+    "title": "About Me",
+    "section": "2.3 Statistics",
+    "text": "2.3 Statistics\nR 的统计模型已经非常丰富，略带夸张地说“只有我们想不到，没有它做不到”。从最基础的多元回归 glm 到稍微复杂的双重差分 fixest 再到时间序列的 fpp3 再到火热的机器学习 mlr3，并且每一个工具包都是实实在在可以投入实战和生产环境直接带来效益的产品。虽然 Python 也有对应的工具包，比如 statsmodels, pyfixest, sktime 等等，但它们都是在 R 的原装基础上衍生而来，乍看之下很完美，一跑起来容易发生一些奇奇怪怪的兼容性小问题，虽然经过一些周折，也不是不能用，但是在小范围项目里的体验感觉要远差于 R 的原装工具包。"
+  },
+  {
+    "objectID": "posts/about/about.html#community",
+    "href": "posts/about/about.html#community",
+    "title": "About Me",
+    "section": "2.4 Community",
+    "text": "2.4 Community\nWickham 横空出世，完成 tidyverse 的同时顺便写了两本书 R4DS 和 Advanced R，字里行间透露着浓浓的柏拉图式理想主义，其中有一段话给我初读的时候带来了很大的感动：\n\nThis book is my attempt to pass on what I’ve learned so that you can understand the intricacies of R as quickly and painlessly as possible. Reading it will help you avoid the mistakes I’ve made and dead ends I’ve gone down, and will teach you useful tools, techniques, and idioms that can help you to attack many types of problems.\n\n不管是有意还是无意，后面陆续加入了许多作者和他们创作的神包：\n\nRBookDown: 基于 rmd 格式而形成的许多重要而免费的教材，包括了 R 语言使用的方方面面，是 R 社区最大的宝藏；python 整体氛围越来越商业化、培训化、订阅化，而距离它最初的开源免费的初心有了很大的变化，并且它的社区在学术交流层面做的很封闭。\nRMarkDown: 将 md 语法和 R 语言完美结合起来，实现了一个 .rmd 文档可以包含文字、数学公式、表格、仅展示的代码、可执行的代码、输出结果、图片、超链接、等等元素。\nmodelsummary: 一个提取各种模型结果并进行美化输出的神包。\nmarginaleffects: 一个进行模型边际效益分析的神包，特别是面对非线性模型和异质性分析时，非常好用。\nfixest: 一个进行高维固定效应回归的神包，特别适合双重差分 DID 分析，经管人居家旅行必备良品。\ntidymodels: 基于 tidyverse 语法的机器学习工具包集合，涵盖了数据预处理、模型训练、模型调优、模型评估等各个环节，很简单但是非常实用。\ntidyverts: 一个进行时间序列分析的神包，独创的 tsibble 数据结构特别适合时间序列数据的处理和分析，完美遗传了 lubridate 的时间处理能力并且进一步融入了 tibble 的数据处理能力，这个包是博士阶段用来处理非金融时间序列分析的万金油。\ntidyquant: 一个进行量化金融分析的神包，完美融合了 tidyverse 和 quantmod 的能力，特别适合初级量化金融实战，但不是很适合高精度、高颗粒度、偏理论层面的量化金融分析。\ntsmodels: 一个进行金融时间序列分析的神包，包含了各种金融时间序列分析的工具和模型，非常适合高精度的量化金融实战，但是这个包的开发到目前还没有达到完全体的状态，期待作者能加速更新。\n\n这些工具包对于经管类的科研工作有很大的帮助，当然 R 的生态圈远不止于此，但是我们暂时不讨论太深入太复杂的内容。隔壁 Python 的工作流更偏向业界，高质量的免费教材很少，社区维护也集中在“高精尖”的包当中，而对于初级使用的包关注度很低。"
+  },
+  {
+    "objectID": "posts/about/about.html#power",
+    "href": "posts/about/about.html#power",
+    "title": "About Me",
+    "section": "2.5 Power",
+    "text": "2.5 Power\nPython 借助 transformer, pytorch, CUDA 生态，在超大规模机器学习、深度学习、神经网络等场景具有明显优势，这一点是 R 最大的缺点，我们必须承认对方的实力强大。但在经管研究的大多数应用中，数据规模与模型复杂度通常不至于成为瓶颈，R 在 1 GB 左右的数据集处理速度时跟 Python 几乎没有性能差别，只有当数据超过 10 GB 的体量，Python 基于 CUDA 的算力优势才会逐渐体现出来。对大多数学术工作而言，R 现有的性能已完全满足需求，并且它的语法更简洁、更人性化、更流畅，非常适合经管类的学术科研工作。至于 stata，虽然它依然活跃在计量经济学领域，但它在复现文档、生态扩展、工程融合、编程效率方面都存在较大落后，因此暂时不讨论它。"
+  }
+]

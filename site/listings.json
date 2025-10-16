@@ -1,0 +1,11 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/about/about.html",
+      "/posts/econ/econ.html",
+      "/posts/fina/fina.html",
+      "/posts/ml/ml.html"
+    ]
+  }
+]

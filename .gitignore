@@ -1,0 +1,9 @@
+# ignore everything
+*
+
+# do NOT ignore
+!site/
+!site/**
+!.gitignore
+/.quarto/
+**/*.quarto_ipynb
